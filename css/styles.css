@@ -59,3 +59,33 @@ header img {
 .features section {
   padding: 64px;
 }
+
+.members {
+  background: #f2f2f3;
+}
+
+.members > h1 {
+  text-align: center;
+  padding: 64px;
+  font-weight: normal;
+}
+
+.members ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.members img {
+  width: 160px;
+  border-radius: 50%;
+}
+
+.members h2 {
+  font-size: 20px;
+}
+
+.members li {
+  padding-bottom: 64px;
+}
