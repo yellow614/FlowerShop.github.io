@@ -104,3 +104,10 @@ header img {
 .call-to-action .btn {
   margin: 0 auto;
 }
+
+footer {
+  padding: 64px;
+  background: #323135;
+  color: #98969c;
+  text-align: center;
+}
