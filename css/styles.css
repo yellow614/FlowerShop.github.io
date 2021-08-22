@@ -111,3 +111,42 @@ footer {
   color: #98969c;
   text-align: center;
 }
+
+@media (min-width: 900px) {
+  header .container {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  header .info {
+    width: 60%;
+    align-self: center;
+  }
+
+  header .pic {
+    width: 40%;
+  }
+
+  .features .container {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .features section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .features section:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .features .pic {
+    width: 50%;
+  }
+
+  .features .info {
+    width: calc(50% - 32px);
+  }
+}
