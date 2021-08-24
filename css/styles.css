@@ -46,18 +46,27 @@ header img {
   text-align: center;
   padding: 64px;
   font-weight: normal;
+  background: darkseagreen;
+  margin: 0 auto;
 }
 
 .features .container {
-  margin: 0 32px;
+  background: rgb(218, 200, 158);
 }
+
+.features > container {
+  margin: 0 auto;
+}
+
 
 .features p {
   line-height: 1.8;
 }
 
 .features section {
-  padding: 64px;
+  padding: 64px ;
+  background: gold;
+ 
 }
 
 .members {
@@ -67,6 +76,7 @@ header img {
 .members > h1 {
   text-align: center;
   padding: 64px;
+  margin: 0 auto;
   font-weight: normal;
 }
 
