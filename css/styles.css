@@ -8,16 +8,19 @@ body {
 header {
   background: lightpink;
   text-align: center;
-  padding-top: 64px;
+  /* padding-top: 64px; */
 }
 
 header h1,
 header p {
   margin: 0;
+  padding-top: 64px;
+
 }
 
 header img {
   width: 100%;
+  height: 100%;
   vertical-align: bottom;
 }
 
@@ -44,18 +47,24 @@ header img {
 
 .features > h1 {
   text-align: center;
-  padding: 64px;
+  padding: 48px;
   font-weight: normal;
   background: darkseagreen;
   margin: 0 auto;
 }
-
+/* 
 .features .container {
   background: rgb(218, 200, 158);
-}
+  margin: auto;
+} */
 
 .features > container {
   margin: 0 auto;
+}
+
+.features {
+  margin: 0 auto;
+  background: gold;
 }
 
 
@@ -66,7 +75,7 @@ header img {
 .features section {
   padding: 64px ;
   background: gold;
- 
+  margin: 0 auto;
 }
 
 .members {
@@ -170,5 +179,11 @@ footer {
 
   .members li {
     width: 250px;
+  }
+
+  body > p {
+    background: rgb(201, 159, 159);
+    margin: 0 auto;
+    text-align: center;
   }
 }
